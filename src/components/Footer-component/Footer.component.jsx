@@ -22,7 +22,7 @@ const Footer = () => {
       <div class="col-6 col-md">
         <h5>About</h5>
         <ul class="list-unstyled text-small">
-          <li><Link class="link-secondary" to="/">Team</Link></li>
+          <li><Link class="link-secondary" to="/about">Outlivin</Link></li>
           <li><Link class="link-secondary" to="/">Locations</Link></li>
           <li><Link class="link-secondary" to="/">Privacy</Link></li>
           <li><Link class="link-secondary" to="/">Terms</Link></li>

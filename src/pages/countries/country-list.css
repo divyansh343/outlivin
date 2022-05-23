@@ -14,3 +14,7 @@
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+.text-decoration-none{
+  text-decoration: none;
+}

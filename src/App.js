@@ -8,6 +8,7 @@ import Error from './components/error-page/Error';
 // import StockList from './pages/stocks/stock-list';
 import CountryList from './pages/countries/country-list';
 import CountryDetail from './pages/country-detail/countryDetail';
+import About from './pages/about-us/about-us';
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
             <Route exact path="/" element={<Homepage />} />
             <Route exact path="/countries" element={<CountryList />} />
               <Route exact path="/countries/:id" element={<CountryDetail />}/>
+            <Route exact path="/about" element={<About />} />
             <Route exact path="/*" element={<Error />} />
           </Routes>
         </div>
