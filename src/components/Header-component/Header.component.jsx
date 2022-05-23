@@ -6,7 +6,7 @@ const Header = () => {
     <>
       <nav className="navbar navbar sticky-top navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/">dyList</Link>
+          <Link className="navbar-brand" to="/">OUTLIVin.in</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -16,10 +16,10 @@ const Header = () => {
                 <Link className="nav-link active" aria-current="page" to="/">Home</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/stocks">Stocks</Link>
+                <Link className="nav-link" to="/countries">Countries</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link disabled" to="/" tabindex="-1" aria-disabled="true">Disabled</Link>
+                <Link className="nav-link" to="/stocks">Stocks</Link>
               </li>
             </ul>
 
