@@ -10,7 +10,7 @@ const CountryList = () => {
           <>
             <div className="card px-3 py-2">
               <Link className="text-decoration-none" to={`/countries/${cunt.id}`}>
-                <img className="card-img-top" src={cunt.image} height={250} width={600} alt={cunt.about} />
+                <img className="card-img-top" src={cunt.image} height={250} width={600} alt={cunt.desc} />
               </Link>
               <div className="card-block">
                 <h4 className="card-title">{cunt.countryName}, <span><h6>{cunt.capital}</h6></span> </h4>

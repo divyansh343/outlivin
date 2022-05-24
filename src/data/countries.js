@@ -27,14 +27,17 @@ export const countrys = [
         ],
         whyHere: [
             {
+                id:1,
                 query: "Why is Germany so popular for immigrants",
                 reason: "Good jobs and salaries, a clean environment, low crime rates, lots of leisure-time and cultural attractions, good public transport – that what makes Germany so attractive for foreigners. People migrate to Germany because of many reasons, but probably the most important ones are strong economic and welfare system."
             },
             {
+                id:2,
                 query: "Is Germany a welcoming country?",
                 reason: "Germans themselves are known as friendly and welcoming people, even if everyone thinks we have a nonexistent sense of humor. The country also boasts two millennia of history that, for good and bad, shaped the world as we know it today."
             },
             {
+                id:3,
                 query: "Is Germany open to immigration?",
                 reason: " Germany aims to drive the influx of foreign skilled professionals with its new Skilled Immigration Act. The new system will invite all the qualified professionals from outside the EU to work in Germany, accompanied by a smooth and transparent process."
             }
@@ -49,9 +52,9 @@ export const countrys = [
         ],
         hospitality: "86",
         isSafe: "89",
-        internetAvail: { avgSpeed: "55Mbps" },
+        internetAvail: { avgSpeed: "55" },
         avergeIncome: {
-            income: "60,000 $",
+            income: "60,000$",
             currency: "Dollars",
         },
         avgWeather: "good",
@@ -151,14 +154,17 @@ export const countrys = [
         ],
         whyHere: [
             {
+                id:1,
                 query: "Is it worth moving to Ireland?",
                 reason: "The country came seventh out of 33 in that category in HSBC's 2019 Expat Explorer Survey, and Dublin has been voted the friendliest city in Europe more than once. Ireland is also the second-best country in the world at providing excellent service and hospitality"
             },
             {
+                id:2,
                 query: "Is there job opportunities in Ireland?",
                 reason: "Opportunities can be found in a number of major industries including the growing technology sector, where the demand for IT workers is high, and thanks to Ireland's rising popularity as a holiday destination, the hospitality and tourism industry are in need of both skilled and casual workers."
             },
             {
+                id:3,
                 query: "Can I move to Ireland without a job?",
                 reason: "Am I eligible to move to Ireland without a job? If you are moving to Ireland as a non-EU/EEA national without a job, you must be eligible for one of the Irish immigration stamps. There are a range of immigration routes open to those who do not have a job in Ireland."
             }
@@ -171,10 +177,10 @@ export const countrys = [
         hospitality: "84",
         isSafe: "87",
         internetAvail: {
-            avgSpeed: "38Mbps"
+            avgSpeed: "38"
         },
         avergeIncome: {
-            income: "52,500",
+            income: "52,500$",
             currency: "Dollars",
         },
         avgWeather: "good",
@@ -189,6 +195,9 @@ export const countrys = [
             "Sligo",
             "Galway",
         ],
+        // visaNotRequired: [
+        //     "has to update"
+        // ],
         favPolicies: [
             "Irish legislation is very flexible when it comes to the provision of visas and residence permits for immigrants. If you aren't a citizen of the European Economic Area or Switzerland, there are several forms of residence rights that allow you to live in Ireland. Normally, a residence permit in Ireland is called permission to remain. Permission to remain is granted by the Department of Justice and Equality and consists of a special stamp endorsed on your passport.",
 
@@ -267,14 +276,17 @@ export const countrys = [
         ],
         whyHere: [
             {
+                id:1,
                 query: "Why is Germany so popular for immigrants",
                 reason: " reunification has become the most common reason for immigrating to America. Individuals and families seeking asylum from violence and war usually immigrate to the United States in search of safety and stability."
             },
             {
+                id:2,
                 query: "why USA has most immigrants?",
                 reason: "Better economic opportunities, more jobs, and the promise of a better life often pull people into new locations. Sometimes individuals have ideas and perceptions about places that are not necessarily correct, but are strong pull factors for that individual."
             },
             {
+                id:3,
                 query: "What does USA offers to immigrants?",
                 reason: "The United States is often portrayed as the “promised land” where people can seek out a higher standard of living. This encompasses all aspects of life, many of which will be explored in further detail below. In short, it implies better opportunities in terms of education and jobs, allowing individuals to become contributing members of society."
             }
@@ -291,7 +303,7 @@ export const countrys = [
         isSafe: "78",
         internetAvail: { avgSpeed: "99.3" },
         avergeIncome: {
-            income: "67,521",
+            income: "67,521$",
             currency: "Dollars",
         },
         avgWeather: "Because of the United States' size and varying degrees of latitudes and geographic features, the country experiences a wide range of climates. Generally, overall temperature is fine",
@@ -448,14 +460,17 @@ export const countrys = [
         ],
         whyHere: [
             {
+                id:1,
                 query: "Do you need a work visa to work in Canada?",
                 reason: "Once you finish your studies (degree) as an international student you can work for a period as per the length of your programme. Maximum you can work for a period of three years. After completing your studies you need to apply for a (PGWP) to work in Canada."
             },
             {
+                id:2,
                 query: "What is the present job market scenario in Canada?",
                 reason: "As things are coming back to normal and the country is opening different sectors this is projected to fall further. Apart from this, employers are also planning to re-hire employees who were laid off due to the pandemic."
             },
             {
+                id:3,
                 query: " Which skills are in demand in Canada?",
                 reason: "there is a huge demand for Nursing jobs in Canada and this trend is going to stay for few years. Also, Software development engineers and electrical engineers are in demand. Your skills must be in sync with your job role."
             }
@@ -476,7 +491,7 @@ export const countrys = [
         isSafe: "85",
         internetAvail: { avgSpeed: "99.76" },
         avergeIncome: {
-            income: "70,000",
+            income: "70,000$",
             currency: "Dollars",
         },
         avgWeather: "good",
@@ -543,8 +558,9 @@ export const countrys = [
         image: "https://images.unsplash.com/photo-1639594563243-58d2dfe4eb91?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374",
         officialCurrency: { currency: "Euro", symbol: "EUR" },
         languages: [
-            "French",
-            "English"
+            "Spanish",
+            "English",
+            "regional langages.."
         ],
 
         desc: "Canada offer great earning opportunities over the next five to ten years. the number of available job openings throughout Canada reached a record high",
@@ -603,7 +619,7 @@ export const countrys = [
         isSafe: "85",
         internetAvail: { avgSpeed: "99.76" },
         avergeIncome: {
-            income: "70,000",
+            income: "70,000$",
             currency: "Dollars",
         },
         avgWeather: "good",
