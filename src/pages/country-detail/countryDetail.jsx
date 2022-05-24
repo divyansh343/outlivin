@@ -4,7 +4,7 @@ import { countrys } from '../../data/countries';
 const CountryDetail = () => {
   const { id } = useParams();
   const cast = Number(id);
-  const obj = countrys[cast];
+  const obj = countrys[cast-1];
   console.log(obj);
 
   return (
@@ -14,7 +14,7 @@ const CountryDetail = () => {
         <div className="container">
           <div>
 
-            <h3 className="pb-4 mb-4">
+            <h2 className="pb-4 mb-4 country-name">
               {obj.countryName} ,
               <span>
                 <h5 className=" border-bottom capital">
@@ -22,7 +22,7 @@ const CountryDetail = () => {
                 </h5>
 
               </span>
-            </h3>
+            </h2>
           </div>
 
           <article className="blog-post">
