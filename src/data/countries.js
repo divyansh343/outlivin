@@ -1,6 +1,6 @@
 export const countrys = [
     {
-        id: 0,
+        id: 1,
         countryName: "Germany",
         capital: "Berlin",
         image: "https://images.unsplash.com/photo-1573564827193-fadecce712db?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774",
@@ -108,7 +108,7 @@ export const countrys = [
         ]
     },
     {
-        id: 1,
+        id: 2,
         countryName: "Ireland",
         capital: "Dublin",
         image: "https://images.unsplash.com/photo-1566506640502-90eb81d30018?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871",
@@ -229,7 +229,7 @@ export const countrys = [
         ]
     },
     {
-        id: 2,
+        id: 3,
         countryName: "USA",
         capital: "Washington, D.C.",
         image: "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870",
@@ -410,7 +410,7 @@ export const countrys = [
         ]
     },
     {
-        id: 3,
+        id: 4,
         countryName: "Canada",
         capital: "Ottawa",
         image: "https://images.unsplash.com/photo-1548214649-9b8570c50f66?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870",
@@ -537,7 +537,134 @@ export const countrys = [
         ]
     },
     {
-        id: 4,
+        id: 5,
+        countryName: "Spain",
+        capital: "Madrid",
+        image: "https://images.unsplash.com/photo-1639594563243-58d2dfe4eb91?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374",
+        officialCurrency: { currency: "Euro", symbol: "EUR" },
+        languages: [
+            "French",
+            "English"
+        ],
+
+        desc: "Canada offer great earning opportunities over the next five to ten years. the number of available job openings throughout Canada reached a record high",
+
+        about: [
+            "Canada will welcome 401,000 immigrants as permanent residents in 2021. Out of this number, 108,500 will be approved under the Federal Express Entry System and 80,800 through Provincial Nominee Programs. As per IRCC, the country will welcome more than 1 million permanent residents by the end of 2023",
+
+            "Express Entry is Canada's fastest and most popular immigration program. Candidates that apply through the Express Entry system can receive permanent residence status as soon as six months.",
+            "Canada offer great earning opportunities over the next five to ten years, as employers are facing skill shortages. According to Statistics Canada, the number of available job openings throughout Canada reached a record high of 912,600 in the third quarter of 2021."
+        ],
+        jobDemandIndustries: [
+            "Computer Science ",
+            "Information Technology",
+            "Business and Management",
+            "Engineering",
+            "Hospitality", 
+            "Tourism",
+        ],
+        keyJobs: [
+            "Software Developer",
+            "IT Project Manager",
+            "IT Business Analyst",
+            "Database Analyst",
+            "Quality Assurance Analyst",
+            "Security Analyst",
+            "Business System Analyst",
+            "Network Engineer",
+        ],
+        whyHere: [
+            {
+                query: "Do you need a work visa to work in Canada?",
+                reason: "Once you finish your studies (degree) as an international student you can work for a period as per the length of your programme. Maximum you can work for a period of three years. After completing your studies you need to apply for a (PGWP) to work in Canada."
+            },
+            {
+                query: "What is the present job market scenario in Canada?",
+                reason: "As things are coming back to normal and the country is opening different sectors this is projected to fall further. Apart from this, employers are also planning to re-hire employees who were laid off due to the pandemic."
+            },
+            {
+                query: " Which skills are in demand in Canada?",
+                reason: "there is a huge demand for Nursing jobs in Canada and this trend is going to stay for few years. Also, Software development engineers and electrical engineers are in demand. Your skills must be in sync with your job role."
+            }
+        ],
+        recommendedFor: [
+            "Developer / software engineer",
+            "IT project manager",
+            "IT business analyst",
+            "Database analyst",
+            "Administrative Assistants",
+            "Cyber Security Specialists",
+            "Web Developers",
+            "Mobile Application Developers",
+            "Big Data Scientists and Data Analysts",
+            "Digital Marketing Specialists",
+        ],
+        hospitality: "89",
+        isSafe: "85",
+        internetAvail: { avgSpeed: "99.76" },
+        avergeIncome: {
+            income: "70,000",
+            currency: "Dollars",
+        },
+        avgWeather: "good",
+        avgTemperature: {
+            temp: "20",
+            unit: "celsius"
+        },
+        hotCitys: [
+            "Toronto, ON",
+            "Ottawa, ON",
+            "Vancouver, BC",
+            "Kitchener-Waterloo, ON",
+            "Montreal, QC",
+            "Calgary, AB",
+            "Victoria, BC",
+            "Halifax, NS",
+        ],
+        visaNotRequired: [
+            "Andorra", "Antigua and Barbuda", "Australia", "Austria", "Bahamas", "Barbados", "Belgium", "Brazil", "Brunei", "Bulgaria", "Chile", "Croatia", "Cyprus", "Czech Republic", "Denmark", "Estonia", "Finland", "France", "Germany", "Greece", "Hong Kong", "Hungary", "Iceland", "Ireland", "Israel", "Italy", "Japan", "Latvia", "Liechtenstein", "Lithuania", "Luxembourg", "Malta", "Mexico", "Monaco", "Netherlands", "New Zealand", "Norway", "Papua New Guinea", "Poland", "Portugal", "Romania", "Samoa", "San Marino", "Singapore", "Slovakia", "Slovenia", "Solomon Islands", "South Korea", "Spain", "Sweden", "Switzerland", "Taiwan", "United Kingdom", "Vatican City"
+        ],
+        favPolicies: [
+            "Canada welcomed more than 405,000 newcomers, the largest single-year increase in its history. Under the plan, overall admissions will amount to 1.14% of the Canadian population by 2024, and nearly 60% of newcomers will qualify as economic immigrants, selected on the basis of their skills and work experience",
+
+            "Qualified applicants are evaluated against six factors to determine their eligibility for immigration to Canada. Applicants must obtain a total of 67 points out of a possible 100 in order to qualify. The selection factors are Education, Language, Employment experience, Age, Arranged employment, Adaptability",
+
+            "The cost of immigrating to Canada is generally about $2,300 CAD for a single applicant, or about $4,500 CAD for a couple.",
+
+        ],
+        findJobThrough: [
+            {
+                name: "Indeed",
+                address: "",
+            },
+            {
+                name: "LinkedIn",
+                address: "",
+            },
+            {
+                name: "Workopolis",
+                address: "",
+            },
+            {
+                name: "Monster",
+                address: "",
+            },
+            {
+                name: "Glassdoor",
+                address: "",
+            },
+            {
+                name: "Eluta",
+                address: "",
+            },
+            {
+                name: "Jobillico",
+                address: "",
+            }
+        ]
+    },
+    {
+        id: 6,
         countryName: "Netherlands",
         image: "https://images.unsplash.com/photo-1506034861661-ad49bbcf7198?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870",
         hotCitys: [
